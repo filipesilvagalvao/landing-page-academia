@@ -1,6 +1,6 @@
 import styles from "./Home.module.css"
 import Cascate from '../cascate/Cascate'
-import video from "/src/videos/exercicio.mp4"
+import video from "/videos/exercicio.mp4"
 
 function Home() {
     return (
