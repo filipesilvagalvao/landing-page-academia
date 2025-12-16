@@ -1,0 +1,16 @@
+.range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.range__line{
+    height: min(80px,10vw);
+    width: 200%;
+    background-image: url("/src/img/range.png");
+    background-position: center;
+    background-size: contain;
+    transform: rotate(-5deg) translateY(-50px);
+    overflow: hidden;
+}

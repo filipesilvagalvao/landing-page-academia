@@ -1,0 +1,16 @@
+.growup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: min(2rem,6vw);
+    width: 215px;
+    text-align: center;
+    border-bottom: 1px solid var(--bg-color-1);
+}
+
+@media(max-width:930px){
+    .growup{
+        border-bottom: 1px solid var(--bg-color-1);
+        width: 100%;
+    }
+}

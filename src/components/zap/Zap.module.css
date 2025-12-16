@@ -1,0 +1,12 @@
+.zap{
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+    z-index: 9;
+    transform: scaleX(-1);
+    color: var(--text-color-3);
+    i{
+        font-size:min(6rem,14vw);
+
+    }
+}
