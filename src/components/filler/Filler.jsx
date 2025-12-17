@@ -1,5 +1,6 @@
 import GrowUp from "/src/components/growUp/GrowUp"
 import styles from "./Filler.module.css"
+import { memo } from "react"
 
 function Filler() {
   return (
@@ -13,4 +14,4 @@ function Filler() {
   )
 }
 
-export default Filler
+export default memo(Filler)

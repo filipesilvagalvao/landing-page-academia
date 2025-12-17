@@ -3,6 +3,7 @@ import Card from '../card/Card'
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { memo } from "react";
 
 function Price() {
   useGSAP(() => {
@@ -70,4 +71,4 @@ function Price() {
   )
 }
 
-export default Price
+export default memo(Price)

@@ -2,6 +2,7 @@ import styles from "./About.module.css"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { memo } from "react";
 
 function About() {
 
@@ -52,4 +53,4 @@ function About() {
   )
 }
 
-export default About
+export default memo(About)

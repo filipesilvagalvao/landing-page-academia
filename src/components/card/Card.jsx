@@ -1,3 +1,4 @@
+import { memo } from "react"
 import styles from "./Card.module.css"
 
 function Card({plan, price, feature}) {
@@ -20,4 +21,4 @@ function Card({plan, price, feature}) {
   )
 }
 
-export default Card
+export default memo(Card)

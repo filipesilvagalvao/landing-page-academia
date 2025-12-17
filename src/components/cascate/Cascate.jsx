@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import styles from "./Cascate.module.css"
-import { useRef } from "react";
+import { memo, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 
 function Cascate({ words }) {
@@ -47,4 +47,4 @@ function Cascate({ words }) {
     )
 }
 
-export default Cascate
+export default memo(Cascate)

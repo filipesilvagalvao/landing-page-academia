@@ -1,3 +1,4 @@
+import { memo } from "react"
 import styles from "./Header.module.css"
 
 function Header() {
@@ -23,4 +24,4 @@ function Header() {
     )
 }
 
-export default Header
+export default memo(Header)

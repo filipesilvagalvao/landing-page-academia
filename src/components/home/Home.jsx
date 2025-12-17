@@ -1,6 +1,7 @@
 import styles from "./Home.module.css"
 import Cascate from '../cascate/Cascate'
 import video from "/videos/exercicio.mp4"
+import { memo } from "react"
 
 function Home() {
     return (
@@ -19,4 +20,4 @@ function Home() {
     )
 }
 
-export default Home
+export default memo(Home)

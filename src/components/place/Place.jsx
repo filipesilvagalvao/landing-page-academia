@@ -2,6 +2,7 @@ import styles from "./Place.module.css"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { memo } from "react";
 
 function Place() {
     useGSAP(() => {
@@ -10,8 +11,6 @@ function Place() {
         gsap.utils.toArray(".box").forEach(item => {
             gsap.from(item, {
                 opacity: 0,
-                scaleX:0.5,
-                scaleY:0.5,
                 y: 60,
                 duration: 0.8,
                 ease: "power2.out",
@@ -52,4 +51,4 @@ function Place() {
     )
 }
 
-export default Place
+export default memo(Place)

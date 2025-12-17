@@ -1,3 +1,4 @@
+import { memo } from "react"
 import styles from "./Range.module.css"
 
 function Range() {
@@ -8,4 +9,4 @@ function Range() {
   )
 }
 
-export default Range
+export default memo(Range)

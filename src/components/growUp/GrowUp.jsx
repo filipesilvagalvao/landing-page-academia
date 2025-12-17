@@ -1,4 +1,4 @@
-import {  useRef } from "react"
+import {  memo, useRef } from "react"
 import styles from "./GrowUp.module.css"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -55,4 +55,4 @@ function GrowUp({ num, text }) {
     )
 }
 
-export default GrowUp
+export default memo(GrowUp)

@@ -1,3 +1,4 @@
+import { memo } from "react"
 import styles from "./Zap.module.css"
 
 function Zap() {
@@ -8,4 +9,4 @@ function Zap() {
     )
 }
 
-export default Zap
+export default memo(Zap)
