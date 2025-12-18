@@ -1,6 +1,16 @@
 @import url(https://db.onlinewebfonts.com/c/7f84c82115f70a63b5307518164b53dc?family=A2+CWM+WEB+Bold);
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
 
+@font-face {
+    font-family: "A2 CWM WEB Bold";
+    src: url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.eot");
+    src: url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7f84c82115f70a63b5307518164b53dc.svg#A2 CWM WEB Bold")format("svg");
+}
+
 *{
     margin: 0;
     padding: 0;
