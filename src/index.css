@@ -1,25 +1,26 @@
 @import url('https://db.onlinewebfonts.com/c/80be37bec3be1e9930885e31b9a6c04e?family=A2CWMWEB-Bold');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "A2 CWM WEB Bold";
+    font-family: "A2CWMWEB-Bold", sans-serif;
+    font-weight: bold;
 }
 
-:root{
-    --bg-color-1:#0f0f0f;
-    --bg-color-2:#fdca38;
-    --bg-color-3:#242424;
-    
-    --text-color-1:#fdca38;
-    --text-color-2:#0f0f0f;
-    --text-color-3:#b1b1b1;
+:root {
+    --bg-color-1: #0f0f0f;
+    --bg-color-2: #fdca38;
+    --bg-color-3: #242424;
 
-    --border-color-1:#4e4e4e77;
+    --text-color-1: #fdca38;
+    --text-color-2: #0f0f0f;
+    --text-color-3: #b1b1b1;
+
+    --border-color-1: #4e4e4e77;
 }
 
-body{
+body {
     background-color: var(--bg-color-1);
 }
