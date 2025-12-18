@@ -1,11 +1,12 @@
 @import url('https://db.onlinewebfonts.com/c/80be37bec3be1e9930885e31b9a6c04e?family=A2CWMWEB-Bold');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "A2CWMWEB-Bold", sans-serif;
+    font-family: "A2CWMWEB-Bold",'Bebas Neue', sans-serif;
     font-weight: bold;
 }
 
